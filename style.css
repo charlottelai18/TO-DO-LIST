@@ -1,39 +1,54 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
-.container{
-  width: 100%;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #d8a1f8, #dbc5e0);
-  padding: 10px;
+/* Apply the background image to the entire page */
+body {
+  background-image: url("images/background.jpg"); /* Path to your background image */
+  background-size: auto;
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Covers full viewport height */
 }
 
-.to-do-app{
-  width:100%;
+/* Styles for the container */
+.container {
+  width: 100%;
+  min-height: 100vh; /* Ensures the container takes full height */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* To-Do App Box */
+.to-do-app {
+  width: 100%;
   max-width: 540px;
   background: #fff;
-  margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.to-do-app h2{
-  color: #924f8f;
+/* To-Do App Heading */
+.to-do-app h2 {
+  color: rgb(240, 164, 175);
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.to-do-app h2 img{
+.to-do-app h2 img {
   width: 30px;
   margin-left: 10px;
 }
 
-.row{
+/* Input and Button Row */
+.row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,16 +58,16 @@
   margin-bottom: 25px;
 }
 
-input{
+input {
   flex: 1;
   border: none;
   outline: none;
   background: transparent;
   padding: 10px;
-  font-weight: 14px;
+  font-size: 14px;
 }
 
-button{
+button {
   border: none;
   outline: none;
   padding: 16px 50px;
@@ -60,8 +75,14 @@ button{
   color: #fff;
   cursor: pointer;
   border-radius: 40px;
+  transition: 0.3s;
 }
 
+button:hover {
+  background: rgb(245, 187, 196); /* Darker shade for hover effect */
+}
+
+/* List Items */
 ul li {
   list-style: none;
   font-size: 17px;
@@ -71,7 +92,8 @@ ul li {
   position: relative;
 }
 
-ul li::before{
+/* Checkbox Styling */
+ul li::before {
   content: '';
   position: absolute;
   width: 28px;
@@ -84,11 +106,12 @@ ul li::before{
   left: 8px; 
 }
 
-ul li.checked{
-  color:#555;
+/* Checked Item */
+ul li.checked {
+  color: #555;
   text-decoration: line-through;
 }
 
-ul li.checked::before{
+ul li.checked::before {
   background-image: url(images/checked.png);
 }
