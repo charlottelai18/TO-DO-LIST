@@ -11,3 +11,24 @@
   background: linear-gradient(135deg, #d8a1f8, #dbc5e0);
   padding: 10px;
 }
+
+.to-do-app{
+  width:100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.to-do-app h2{
+  color: #924f8f;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.to-do-app h2 img{
+  width: 30px;
+  margin-left: 10px;
+}
