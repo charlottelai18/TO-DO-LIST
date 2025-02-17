@@ -8,19 +8,21 @@
 
   <body>
     <div class="container">
-      <div class="to-do-app">
-        <h2>To-Do List <img src="images/icon.png" ></h2>
-        <div class="row">
-          <input type="text" id="input-box" placeholder="Add your text">
-          <button onClick="addTask()">Add</button>
+        <div class="to-do-app">
+            <h2>To-Do List <img src="images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onClick="addTask()">Add</button>
+            </div>
+            <ul id="list-container"></ul>
         </div>
-        <ul id="list-container">
-          <!--<<li class="checked">Task 1</li>
-          <li>Task 2</li>
-          <li>Task 3</li>>-->
-        </ul>
-      </div>
     </div>
+
+    <!-- Hidden YouTube player for celebration sound -->
+    <div id="player" style="display: none;"></div>
+
+    <!-- YouTube API script -->
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="script.js"></script>
   </body>
 </html>
