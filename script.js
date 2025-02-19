@@ -15,12 +15,12 @@ function onYouTubeIframeAPIReady() {
 
 function playCelebrationSound() {
   if (player) {
+    player.seekTo(0); // Restart video from the beginning
+    player.setVolume(30);
     player.playVideo();
-    setTimeout(() => {
-      player.pauseVideo();
-    }, 3000); // Stops video after 3 seconds
   }
 }
+
 
 function addTask() {
   if (inputBox.value === '') {
