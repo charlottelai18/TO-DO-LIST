@@ -1,11 +1,11 @@
-TO-DO LIST ✅
-A simple and aesthetically pleasing to-do list application with sound effects for task completion.
+TO-DO LIST ✅ <br>
+A simple and aesthetically pleasing to-do list application with sound effects for task completion. <br>
 
-Features
-📝 Add new tasks
-✅ Mark tasks as completed
-🔊 Play a celebratory sound when a task is checked off
-🎨 Customizable aesthetic with a pink-themed background
+Features <br>
+📝 Add new tasks <br>
+✅ Mark tasks as completed <br>
+🔊 Play a celebratory sound when a task is checked off<br>
+🎨 Customizable aesthetic with a pink-themed background<br>
 
 Installation
 To run the project locally:
