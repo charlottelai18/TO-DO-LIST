@@ -7,11 +7,11 @@ Features <br>
 🔊 Play a celebratory sound when a task is checked off<br>
 🎨 Customizable aesthetic with a pink-themed background<br>
 
-Installation
-To run the project locally:
-git clone https://github.com/charlottelai18/TO-DO-LIST.git
-cd TO-DO-LIST
-Open index.html in your browser
+Installation<br>
+To run the project locally:<br>
+git clone https://github.com/charlottelai18/TO-DO-LIST.git<br>
+cd TO-DO-LIST<br>
+Open index.html in your browser<br>
 
 Usage
 1. Enter a task in the input field and click "Add"
