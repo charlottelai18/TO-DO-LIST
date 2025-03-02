@@ -13,7 +13,7 @@ git clone https://github.com/charlottelai18/TO-DO-LIST.git<br>
 cd TO-DO-LIST<br>
 Open index.html in your browser<br>
 
-Usage
+Usage<br>
 1. Enter a task in the input field and click "Add"
 2. Click on a task to mark it as complete (sound plays)
 3. Click "X" to remove a task
